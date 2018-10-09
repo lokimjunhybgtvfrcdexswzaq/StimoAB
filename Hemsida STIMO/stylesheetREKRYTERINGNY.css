@@ -1,0 +1,712 @@
+/*BAKGRUND & LOGO*/
+
+.background-planks3 img{
+	position: absolute;
+	top:0vw;
+	left:0vw;
+	z-index: -1;
+	width:100vw;
+	height:200vw;
+	
+	
+}
+.logostor3 img{
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:4vw;
+	left:25.5vw;
+	transform: translate(-50%,-50%);
+	height: 6vw;
+	width:23vw;
+}
+
+
+/*NAVBAR*/
+
+
+.navbar{
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:11vw;
+	left:50vw;
+	transform: translate(-50%,-50%);
+	height: 4vw;
+	width:69vw;
+	
+	
+	
+}
+.navbar p{
+	text-align:center;
+	font-family: Palatino;
+	font-size: 1.5vw;
+	font-weight: 800;
+	position:absolute;
+	top:0.22vw;
+	left:8.5vw;
+	transform: translate(-50%,-50%);
+	color:white;
+	
+	
+}
+.navbar a{
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:-2%;
+	height: 4vw;
+	width:17.25vw;
+	border-radius: 1vw;
+	text-decoration: none;
+	opacity: 0.95;
+}
+.navbar #hover:hover{
+	background-image:none;
+	background-color:#646464;
+	border:none;
+}
+.start-Kontakt{
+	left:-0.85vw;
+	background-image: url(images/navbar.jpg);
+	border: 0.15vw solid #646464
+}
+ .om-stimo-ab-Kontakt {
+	left:16.9vw;
+	background-image: url(images/navbar.jpg);
+	border: 0.15vw solid #646464;
+}
+.rekrytering-Kontakt {
+	left:34.6vw;
+	background-color: #6FAFD1;
+	background-image: none;
+	box-shadow: 0.15vw 0.15vw 0.075vw 0.15vw #727272;
+}
+
+
+
+
+/*NAVBAR(KONTAKT) + UNDERMENY*/
+
+
+#kontakt-kontakt1{
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:-2%;
+	height: 4vw;
+	width:17.25vw;
+	border-radius: 1vw;
+	text-decoration: none;
+	opacity: 0.95;
+	left:52.3vw;
+	background-image: url(images/navbar.jpg);
+	border: 0.15vw solid #646464;
+	z-index:50;
+}
+#kontakt-kontakt1:hover{
+	background-image:none;
+	background-color:#646464;
+	border: 0.11vw solid black;
+	box-shadow: 0.15vw 0.15vw 0.075vw 0.15vw #727272;
+}
+#kontakt-kontakt1:hover #undermeny{
+	display: block;
+}
+#kontakt-kontakt1:hover #undermenytransparent{
+	display: block;
+}
+#undermeny:hover{
+	background-image:none;
+	background-color:#646464;
+	border:none;
+	box-shadow: 0.15vw 0.15vw 0.075vw 0.15vw #727272;
+}
+.under-meny-kontakt-kontakt-transparent{
+	position:fixed;
+	height:17vw;
+	width: 17vw;
+	background-color:transparent;
+	transform: translateX(-50%);
+	left: 61vw;
+	top: 2vw;
+	display: none;
+	border-radius: 0.5vw;
+}
+.under-meny-kontakt-kontakt1{
+	position:relative;
+	height:3vw;
+	width: 15vw;
+	background-color:#646464;
+	transform: translateX(-50%);
+	left: 8.8vw;
+	top: 4.45vw;
+	display: none;
+	border-radius: 0.5vw;
+	border: 0.11vw solid black;
+	box-shadow: 0.10vw 0.0vw 0.075vw 0.1vw #727272;
+	
+}
+.under-meny-kontakt-kontakt1 a{
+	color:white;
+	left:0vw;
+	top: 0.7vw;
+	font-size:1.4vw;
+	width:15vw;
+	height: 4vw;
+	text-align:center;
+
+}
+.under-meny-kontakt-kontakt2{
+	position:relative;
+	height:3vw;
+	width: 15vw;
+	background-color:#646464;
+	transform: translateX(-50%);
+	left: 8.8vw;
+	top: 4.6vw;
+	display: none;
+	border-radius: 0.5vw;
+	border: 0.11vw solid black;
+	box-shadow: 0.10vw 0.0vw 0.075vw 0.1vw #727272;
+}
+.under-meny-kontakt-kontakt2 a{
+	color:white;
+	left:0vw;
+	top: 0.7vw;
+	font-size:1.4vw;
+	width:15vw;
+	height: 4vw;
+	text-align:center;
+
+}
+.under-meny-kontakt-kontakt3{
+	position:relative;
+	height:3vw;
+	width: 15vw;
+	background-color:#646464;
+	transform: translateX(-50%);
+	left: 8.8vw;
+	top: 4.75vw;
+	display: none;
+	border-radius: 0.5vw;
+	border: 0.11vw solid black;
+	box-shadow: 0.10vw 0.0vw 0.075vw 0.1vw #727272;
+}
+.under-meny-kontakt-kontakt3 a{
+	color:white;
+	left:0vw;
+	top: 0vw;
+	font-size:1.3vw;
+	width:15vw;
+	height: 4vw;
+	text-align:center;
+	
+
+}
+.under-meny-kontakt-kontakt4{
+	position:relative;
+	height:3vw;
+	width: 15vw;
+	background-color:#646464;
+	transform: translateX(-50%);
+	left: 8.8vw;
+	top: 4.9vw;
+	display: none;
+	border-radius: 0.5vw;
+	border: 0.11vw solid black;
+	box-shadow: 0.10vw 0.0vw 0.075vw 0.1vw #727272;
+}
+.under-meny-kontakt-kontakt4 a{
+	color:white;
+	left:0vw;
+	top: 0.7vw;
+	font-size:1.4vw;
+	width:15vw;
+	height: 4vw;
+	text-align:center;
+
+}
+
+
+
+
+
+/*CONTAINER*/
+
+.container-Rekrytering{
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:5vw;
+	left:34vw;
+	transform: translateX(-50%);
+	height: 185vw;
+	width:80vw;
+	background-color: #EDEDED;
+	border: 0.15vw solid black;
+	border-radius: 0.5vw;
+	
+}
+.container-Rekrytering h1{
+	margin:0;
+	padding:0;
+	font-family: Garamond ;
+	font-size:3.5vw;
+	font-weight:600;
+	letter-spacing: 0px;
+	position:absolute;
+	top:1vw;
+	left:0.3vw;
+	transform: translate(-50%,-50%);
+	width:12vw
+	
+}
+.container-h1-Rekrytering{
+	margin:0;
+	padding:0;
+	background-color:#DADADA;
+	text-align: center;
+	width:18vw;
+	height:6.7vw;
+	position:relative;
+	left:6.4vw;
+	border-radius: 0 0 0.7vw 0.7vw;
+	border: 0.15vw solid black;
+	border-top: none;
+	box-shadow: 0.225vw 0.225vw 0.225vw 0.225vw #646464;
+	
+	
+}
+
+/* BILD 1 */
+
+
+.bild1-Rekrytering{
+	margin:0;
+	padding:0;
+	position:absolute;
+	transform: translateX(-50%);
+	border: 0.15vw solid black;
+	border-radius: 0.5vw;
+	left: 59vw;
+	width:30vw;
+	height:30vw;
+}
+.bild1-Rekrytering img{
+	width: 30vw;
+	height:30vw;
+	
+}
+
+
+/* TEXT 1 */
+
+
+.text1-Rekrytering{
+	margin:0;
+	padding:0;
+	position:absolute;
+	transform:translateX(-50%);
+	left:20vw;
+	top:10vw;
+	width:35vw;
+	height:12.5vw;
+	background-color:black;
+	border: 0.15vw solid black;
+	border-radius:0.5vw;
+	background-color:white;
+	
+}
+.text1-Rekrytering h1{
+	font-family: Garamond;
+	font-size: 1.8vw;
+	font-weight: 540;
+	border: 0.15 solid black;
+	text-align: center;
+	width:34.5vw;
+	left:17.5vw;
+	top: 6.25vw;
+	
+}
+
+
+/* TEXT 2 */
+
+
+.text2-Rekrytering{
+	margin:0;
+	padding:0;
+	position:absolute;
+	transform:translateX(-50%);
+	left:20vw;
+	top:25vw;
+	width:35vw;
+	height:8vw;
+	background-color:black;
+	border: 0.15vw solid black;
+	border-radius:0.5vw;
+	background-color:white;
+	
+}
+.text2-Rekrytering h1{
+	font-family: Garamond;
+	font-size: 1.8vw;
+	font-weight: 540;
+	border: 0.15 solid black;
+	text-align: center;
+	width:34.5vw;
+	left:17.5vw;
+	top: 3.5vw;
+	
+}
+
+
+/* LINJE 1 */
+
+
+.line1-Rekrytering{
+	margin:0;
+	padding:0;
+	position:absolute;
+	transform:translateX(-50%);
+	left:40vw;
+	top:40vw;
+	background-color:transparent;
+	border-bottom:0.15vw solid black;
+	width:80vw;
+	height:2vw;
+}
+
+
+/* TEXT 3 */
+
+
+.text3-Rekrytering{
+	margin:0;
+	padding:0;
+	position:absolute;
+	transform:translateX(-50%);
+	left:40vw;
+	top:50vw;
+	width:70vw;
+	height:9vw;
+	background-color:black;
+	border: 0.15vw solid black;
+	border-radius:0.5vw;
+	background-color:white;
+	
+}
+.text3-Rekrytering h1{
+	font-family: Garamond;
+	font-size: 2vw;
+	font-weight: 550;
+	text-align: center;
+	width:34.5vw;
+	left:35vw;
+	top: 1vw;
+	text-decoration: underline;
+	
+}
+.text3-Rekrytering h2{
+	font-family: Garamond;
+	font-size: 1.6vw;
+	font-weight: 550;
+	text-align: center;
+	width:70vw;
+	left:25vw;
+	margin-top:2.9vw;
+	
+}
+.text3-Rekrytering h3{
+	font-family: Garamond;
+	font-size: 1.8vw;
+	font-weight: 540;
+	text-align: center;
+	width:70vw;
+	left:25vw;
+	margin-top:-0.7vw;
+	
+}
+
+
+/* TEXT 4 */
+
+
+.text4-Rekrytering{
+	margin:0;
+	padding:0;
+	position:absolute;
+	transform:translateX(-50%);
+	left:40vw;
+	top:60vw;
+	width:70vw;
+	height:38vw;
+	background-color:black;
+	border: 0.15vw solid black;
+	border-radius:0.5vw;
+	background-color:white;
+	
+}
+.text4-Rekrytering h1{
+	font-family: Garamond;
+	font-size: 2vw;
+	font-weight: 550;
+	text-align: center;
+	width:34.5vw;
+	left:35vw;
+	top: 2vw;
+	text-decoration: underline;
+	
+}
+.text4-Rekrytering h2{
+	font-family: Garamond;
+	font-size: 1.8vw;
+	font-weight: 540;
+	text-align: center;
+	width:65vw;
+	margin-top:4vw;
+	margin-left:2vw;
+	
+}
+.text4-Rekrytering h3{
+	font-family: Garamond;
+	font-size: 1.8vw;
+	font-weight: 540;
+	text-align: center;
+	width:65vw;
+	margin-top:3vw;
+	margin-left:2vw;
+	
+}
+.text4-Rekrytering h4{
+	font-family: Garamond;
+	text-decoration: underline;
+	font-size: 1.8vw;
+	font-weight: 540;
+	text-align: center;
+	width:65vw;
+	margin-top:3vw;
+	margin-left:2vw;
+	
+}
+
+
+/* TEXT 5 */
+
+
+.text5-Rekrytering{
+		margin:0;
+	padding:0;
+	position:absolute;
+	transform:translateX(-50%);
+	left:40vw;
+	top:99vw;
+	width:70vw;
+	height:23vw;
+	background-color:black;
+	border: 0.15vw solid black;
+	border-radius:0.5vw;
+	background-color:white;
+}
+.text5-Rekrytering h1{
+		font-family: Garamond;
+	font-size: 2vw;
+	font-weight: 550;
+	text-align: center;
+	width:34.5vw;
+	left:35vw;
+	top: 2vw;
+	text-decoration: underline;
+}
+.text5-Rekrytering h2{
+	font-family: Garamond;
+	font-size: 1.8vw;
+	font-weight: 540;
+	text-align: center;
+	width:65vw;
+	margin-top:4vw;
+	margin-left:2vw;
+	
+}
+
+/* TEXT 6 */
+
+
+.text6-Rekrytering{
+		margin:0;
+	padding:0;
+	position:absolute;
+	transform:translateX(-50%);
+	left:40vw;
+	top:123vw;
+	width:70vw;
+	height:14vw;
+	background-color:black;
+	border: 0.15vw solid black;
+	border-radius:0.5vw;
+	background-color:white;
+}
+.text6-Rekrytering h1{
+		font-family: Garamond;
+	font-size: 2vw;
+	font-weight: 550;
+	text-align: center;
+	width:34.5vw;
+	left:35vw;
+	top: 2vw;
+	text-decoration: underline;
+}
+.text6-Rekrytering h2{
+	font-family: Garamond;
+	font-size: 1.8vw;
+	font-weight: 540;
+	text-align: center;
+	width:65vw;
+	margin-top:4vw;
+	margin-left:2vw;
+	
+}
+
+
+/*TEXT 7 */
+
+.text7-Rekrytering{
+		margin:0;
+	padding:0;
+	position:absolute;
+	transform:translateX(-50%);
+	left:40vw;
+	top:138vw;
+	width:70vw;
+	height:14vw;
+	background-color:black;
+	border: 0.15vw solid black;
+	border-radius:0.5vw;
+	background-color:white;
+}
+.text7-Rekrytering h1{
+		font-family: Garamond;
+	font-size: 2vw;
+	font-weight: 550;
+	text-align: center;
+	width:34.5vw;
+	left:35vw;
+	top: 2vw;
+	text-decoration: underline;
+}
+.text7-Rekrytering h2{
+	font-family: Garamond;
+	font-size: 1.8vw;
+	font-weight: 540;
+	text-align: center;
+	width:65vw;
+	margin-top:4vw;
+	margin-left:2vw;
+	
+}
+
+/* TEXT 8 */
+
+
+.text8-Rekrytering{
+	margin:0;
+	padding:0;
+	position:absolute;
+	transform:translateX(-50%);
+	left:40vw;
+	top:153vw;
+	width:70vw;
+	height:11vw;
+	background-color:black;
+	border: 0.15vw solid black;
+	border-radius:0.5vw;
+	background-color:white;
+}
+.text8-Rekrytering h1 {
+		font-family: Garamond;
+	font-size: 2vw;
+	font-weight: 550;
+	text-align: center;
+	width:34.5vw;
+	left:35vw;
+	top: 2vw;
+	text-decoration: underline;
+}
+.text8-Rekrytering h2{
+	font-family: Garamond;
+	font-size: 1.8vw;
+	font-weight: 540;
+	text-align: center;
+	width:65vw;
+	margin-top:4vw;
+	margin-left:2vw;
+	
+}
+#MEJL{
+	position:relative;
+}
+
+
+/* TEXT 9 */
+
+.text9-Rekrytering{
+	margin:0;
+	padding:0;
+	position:absolute;
+	transform:translateX(-50%);
+	left:22.5vw;
+	top:165vw;
+	width:35vw;
+	height:9vw;
+	background-color:black;
+	border: 0.15vw solid black;
+	border-radius:0.5vw;
+	background-color:white;
+}
+.text9-Rekrytering h1{
+		font-family: Garamond;
+	font-size: 2vw;
+	font-weight: 550;
+	text-align: center;
+	width:34.5vw;
+	left:17vw;
+	top: 2vw;
+	text-decoration: underline;
+}
+.text9-Rekrytering h2{
+	font-family: Garamond;
+	font-size: 1.8vw;
+	font-weight: 540;
+	width:65vw;
+	margin-top:4vw;
+	margin-left:6.5vw;
+	
+}
+
+
+/*TEXT 10*/
+
+.text10-Rekrytering{
+	margin:0;
+	padding:0;
+	position:absolute;
+	transform:translateX(-50%);
+	left:56vw;
+	top:177vw;
+	width:35vw;
+	height:2vw;
+	background-color:black;
+	background-color:transparent;
+}
+.text10-Rekrytering h1{
+	font-family: Garamond;
+	font-size: 1.8vw;
+	font-weight: 540;
+	text-align: center;
+	color: grey;
+	width:65vw;
+	margin-top:4vw;
+	margin-left:2vw;
+}
